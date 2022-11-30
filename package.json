@@ -1,0 +1,23 @@
+{
+  "name": "furio-auto-compound",
+  "packageManager": "yarn@3.3.0",
+  "version": "1.0.0",
+  "description": "Automatically compound Furio",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@tsconfig/node18-strictest": "^1.0.0",
+    "@types/node": "^18.11.9",
+    "decimal.js": "^10.4.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
